@@ -1,11 +1,19 @@
-document.getElementById("rock").addEventListener("click", function() {
+// Get the buttons and result div from the HTML by their IDs
+const rockButton = document.getElementById("rock");
+const paperButton = document.getElementById("paper");
+const scissorsButton = document.getElementById("scissors");
+
+// Add event listener for rock button
+rockButton.addEventListener("click", function() {
   console.log("You chose: Rock 🪨");
 });
 
-document.getElementById("paper").addEventListener("click", function() {
+// Add event listener for paper button
+paperButton.addEventListener("click", function() {
   console.log("You chose: Paper 📄");
 });
 
-document.getElementById("scissors").addEventListener("click", function() {
+// Add event listener for scissors button
+scissorsButton.addEventListener("click", function() {
   console.log("You chose: Scissors ✂️");
 });
