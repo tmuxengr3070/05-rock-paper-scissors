@@ -1,4 +1,4 @@
-// Get the buttons and result div from the HTML by their IDs
+// Get the buttons from the HTML by their IDs
 const rockButton = document.getElementById("rock");
 const paperButton = document.getElementById("paper");
 const scissorsButton = document.getElementById("scissors");
